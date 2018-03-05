@@ -1,0 +1,32 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,*::before,*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+
+}
+
+body {
+  min-width: px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', 'PT Sans',  sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+li {
+    list-style-type: none;
+   }
