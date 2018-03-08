@@ -10,14 +10,20 @@ html {
 }
 
 body {
-  min-width: px;
+  min-width: 960px;
   margin: 0;
   padding: 0;
   font-family: 'Cuprum', 'PT Sans',  sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
-  color: #283136;
+  color: #32425c;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 img {
@@ -30,3 +36,76 @@ img {
 li {
     list-style-type: none;
    }
+
+a {
+  text-decoration: none;
+}
+
+.header-top {
+  background-color: #293449;
+}
+
+.bookmarks,
+.basket,
+.place-an-order {
+  display: block;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  width: 150px;
+}
+
+.bookmarks {
+  padding-left: 45px;
+  padding-top: 12px;
+  padding-right: 10px;
+}
+
+.basket {
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 50px;
+}
+
+.place-an-order {
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 20px;
+  background-color: #63a63e;
+}
+
+
+.header-top {
+  display: flex;
+}
+
+.top-menu-form {
+  margin-left: 220px;
+}
+
+.top-menu-form input[type="text"] {
+  border: 0;
+  height: 42px;
+  padding-left: 49px;
+  padding-right: 10px;
+  outline: none;
+  width: 270px;
+  background-color: #293449;
+}
+
+.top-menu-form input[type="text"]::placeholder {
+  font-size: 17px;
+  font-family: 'Cuprum', 'PT Sans',  sans-serif;
+  color: #ffffff;
+}
+
+.index-logo {
+  position: absolute;
+  top: -4px;
+}
+
+.header-middle {
+  background-color: #f3f7f8;
+}
