@@ -84,8 +84,13 @@ a {
 
 .header-top,
 .header-middle,
-.navigation {
+.navigation,
+.products {
   display: flex;
+}
+
+.products {
+  justify-content: space-between;
 }
 
 .top-menu-form {
@@ -176,13 +181,13 @@ a {
   padding-bottom: 12px;
   padding-left: 46px;
   padding-right: 10px;
-  height: 45px;
+  height: 42px;
   margin-right: 6px;
 }
 
 .register {
   display: block;
-  height: 45px;
+  height: 42px;
   padding-top: 9px;
   padding-bottom: 12px;
   padding-right: 25px;
@@ -221,6 +226,7 @@ a {
   margin: 0;
   flex-wrap: wrap;
   padding: 0;
+  margin-bottom: 52px;
 }
 
 .main-services a {
@@ -310,4 +316,95 @@ a {
   padding-left: 50px;
   padding-right: 45px;
   border-radius: 3px;
+}
+
+.products-title {
+  position: relative;
+  background-color: #f9f5f0;
+  padding-left: 29px;
+  padding-right: 24px;
+  padding-top: 30px;
+  padding-bottom: 27px;
+  margin-bottom: 20px;
+}
+
+.popular-products {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+
+.all-popular-products {
+  position: absolute;
+  background-color: #ee3643;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 55px;
+  border-radius: 3px;
+  right: 24px;
+  top: 25px;
+  padding-left: 54px;
+}
+
+.products,
+.products h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.products h3 {
+  width: 190px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.products li {
+  border: 1px solid #eaeaea;
+}
+
+.goods {
+  font-family:  'PT Sans',  sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.price,
+.old-price {
+  margin: 0;
+}
+
+.old-price {
+  font-family:  'PT Sans',  sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-family:  'PT Sans',  sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  text-align: center;
+  width: 140px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.products li:first-child {
+  padding: 6px 13px 20px 15px;
 }
