@@ -490,3 +490,26 @@ a {
 .products {
   margin-bottom: 21px;
 }
+
+.brend-item a {
+  display: block;
+  width: 220px;
+  height: 145px;
+  border: 1px solid #eaeaea;
+}
+
+.brend-list {
+  margin: 0;
+  padding: 0;
+}
+
+.brend-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.bosch {
+  background: url("../img/bosch.png") no-repeat 50% 50%;
+}
