@@ -508,8 +508,277 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
+  margin-bottom: 64px;
+}
+
+.brend-list a {
+  margin-bottom: 21px;
 }
 
 .bosch {
   background: url("../img/bosch.png") no-repeat 50% 50%;
+}
+
+.makita {
+  background: url("../img/makita.png") no-repeat 50% 50%;
+}
+
+.dewalt {
+  background: url("../img/dewalt.png") no-repeat 50% 50%;
+}
+
+.inter {
+  background: url("../img/inter.png") no-repeat 50% 39%;
+}
+
+.hitachi {
+  background: url("../img/hitachi.png") no-repeat 50% 50%;
+}
+
+.lg {
+  background: url("../img/lg.png") no-repeat 50% 50%;
+}
+
+.aeg {
+  background: url("../img/aeg.png") no-repeat 50% 50%;
+}
+
+.metabo {
+  background: url("../img/metabo.png") no-repeat 50% 44%;
+}
+
+.services {
+  background-color: #f4f8fa;
+  padding-top: 65px;
+  margin-bottom: 80px;
+}
+
+.services  > h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.god-internet {
+  font-family: 'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.we-are-trying {
+  font-family: 'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 65px;
+}
+
+.our-services {
+  margin: 0;
+  padding: 0;
+}
+
+.our-services a {
+  font-size: 21px;
+  line-height: 30px;
+  color: #32425c;
+}
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-list h2 {
+  margin: 0;
+}
+
+.delivery h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.left-column h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-company {
+  display: flex;
+}
+
+.left-column p {
+  font-family: 'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.logistic {
+  padding: 0;
+  margin: 0;
+}
+
+.slider-list .slider-item:first-child {
+  background: url("../img/delivery-car.png") no-repeat;
+  background-position: 100% 108%;
+  display: none;
+}
+
+.slider-list .slider-item:nth-child(2) {
+  background: url("../img/guarantee.png") no-repeat;
+  background-position: 100% 50%;
+  display: none;
+}
+
+.slider-list .slider-item:nth-child(3) {
+  background: url("../img/credit.png") no-repeat;
+  background-position: 100% 50%;
+  display: none;
+}
+
+#product-1:checked ~ .slider-list .slider-item:nth-child(1) {
+  display: block;
+  margin-left: 79px;
+}
+
+#product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+#product-3:checked ~ .slider-list .slider-item:nth-child(3) {
+  display: block;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.slider-controls-item {
+  cursor: pointer;
+}
+
+.services-list {
+  display: flex;
+}
+
+.slider-list .slider-item {
+  display: block;
+}
+
+.slider-item {
+  width: 620px;
+  height: 285px;
+}
+
+.slider-button {
+  width: 240px;
+}
+
+.slider-controls-item--1,
+.slider-controls-item--2,
+.slider-controls-item--3 {
+  background-color: #32425c;
+  color: #ffffff;
+}
+
+.slider-controls-item {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.slider-controls-item--1 {
+  display: block;
+  padding-top: 16px;
+  padding-left: 22px;
+  padding-right: 139px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #4e637c;
+}
+
+.slider-controls-item--2 {
+  display: block;
+  padding-top: 13px;
+  padding-left: 22px;
+  padding-right: 139px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #4e637c;
+}
+
+.slider-controls-item--3 {
+  display: block;
+  padding-top: 14px;
+  padding-left: 22px;
+  padding-right: 139px;
+  padding-bottom: 16px;
+}
+
+#product-1:checked ~ .slider-button .slider-controls-item--1,
+#product-2:checked ~ .slider-button .slider-controls-item--2,
+#product-3:checked ~ .slider-button .slider-controls-item--3 {
+  background-color: #ffffff;
+  color: #32425c;
+}
+
+
+.services-list {
+  position: relative;
+}
+
+.slider-button::after {
+  content: "";
+  position: absolute;
+  background: url("../img/shadow.png") no-repeat;
+  left: 230px;
+  bottom: 50px;
+  width: 10px;
+  height: 279px;
+}
+
+.slider-item {
+  display: block;
+}
+
+.slider-list .slider-item:first-child h2 {
+  display: block;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  color: #32425c;
+  text-transform: uppercase;
+  padding-top: 2px;
+  margin-bottom: 26px;
+}
+
+.slider-list .slider-item:first-child .first-part {
+  font-family: 'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  width: 276px;
+  margin: 0;
+}
+
+.slider-list .slider-item:first-child .second-part {
+  font-family: 'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  width: 210px;
+  margin: 0;
 }
