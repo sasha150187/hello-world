@@ -371,7 +371,7 @@ a {
   padding: 10px 55px;
   border-radius: 3px;
   right: 24px;
-  top: 25px;
+  top: 23px;
   padding-left: 68px;
   padding-right: 70px;
 }
@@ -622,6 +622,10 @@ a {
 
 .about-company {
   justify-content: space-between;
+}
+
+.about-company {
+  padding-bottom: 85px;
 }
 
 .mans-shoping {
@@ -978,4 +982,124 @@ input[type="radio"] {
 
 .right-column img {
   margin-bottom: 32px;
+}
+
+.main-information-technomart {
+  position: relative;
+  background-color: #32425c;
+  padding-bottom: 49px;
+}
+
+.main-information-technomart {
+  display: flex;
+}
+
+.left p {
+  color: #ffffff;
+  margin: 0;
+  padding-top: 97px;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 3px;
+  width: 326px;
+}
+
+.main-information-technomart-logo {
+  position: absolute;
+  top: -4px;
+}
+
+.white-colored-menu,
+.yellow-colored-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.white-colored-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white-colored-menu {
+  padding-top: 38px;
+  margin-left: 67px;
+  width: 548px;
+  margin-bottom: 35px;
+}
+
+.white-colored-menu li {
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.yellow-colored-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yellow-colored-menu li {
+  color: #ffd180;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.yellow-colored-menu {
+  width: 526px;
+  margin-left: 89px;
+}
+
+.footer-social {
+  background-color: #293449;
+}
+
+.copyright {
+  padding-top: 36px;
+  margin-right: 41px;
+}
+
+.copyright p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  width: 230px;
+}
+
+.social-networks {
+  padding: 0;
+  margin: 0;
+  padding-top: 35px;
+}
+
+.social {
+  cursor: pointer;
+  display: block;
+  background-color: #212a3a;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.footer-social,
+.social-networks {
+  display: flex;
+}
+
+.footer-social {
+  justify-content: space-between;
+}
+
+.write-us {
+  width: 300px;
+}
+
+.social-networks {
+  width: 130px;
+}
+
+.social-networks li:first-child {
+  margin-right: 2px;
 }
