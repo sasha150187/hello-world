@@ -429,12 +429,12 @@ a {
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #ee3643;
   text-align: center;
   width: 140px;
   padding: 10px;
   border-radius: 3px;
   padding-right: 14px;
+  background-image: url("../img/red-button.svg");
 }
 
 .products li {
@@ -1430,12 +1430,11 @@ input[type="radio"] {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
-  background-color: #f7f3ec;
   padding: 10px;
   border-radius: 3px;
   text-transform: uppercase;
   padding-left: 18px;
-  margin-bottom: 11px;
+  margin-right: 19px;
 }
 
 .sorting,
@@ -1606,4 +1605,142 @@ input[type="radio"] {
   color: #000000;
   text-transform: uppercase;
   outline: none;
+}
+
+.sorting {
+  background-color: #f7f3ec;
+  margin-bottom: 20px;
+}
+
+.sorting-items {
+  padding: 0;
+  margin: 0;
+}
+
+.sorting-items .item {
+  font-family:  'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+.current {
+  font-family:  'PT Sans',  sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ee3643;
+  text-transform: uppercase;
+}
+
+.sorting-items {
+  position: relative;
+  width: 460px;
+  padding-top: 7px;
+}
+
+.asc {
+  position: absolute;
+  background-image: url("../img/icon-up-dir.svg");
+  background-repeat: no-repeat;
+  background-size: 11px 10px;
+  top: 14px;
+  right: 48px;
+  width: 11px;
+  height: 10px;
+}
+
+.des {
+  position: absolute;
+  background-image: url("../img/icon-down-dir.svg");
+  background-repeat: no-repeat;
+  background-size: 11px 10px;
+  top: 14px;
+  right: 16px;
+  width: 11px;
+  height: 10px;
+}
+
+.sorting-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sorting-items li:first-child {
+  margin-right: 13px;
+}
+
+.sorting-items li:nth-child(2) {
+  margin-right: 12px;
+}
+
+.type,
+.rating {
+  border-bottom: 1px dotted #ee3643;
+}
+
+.layout {
+  width: 220px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 19px;
+}
+
+.BFG-3000 {
+  padding: 28px 13px 20px 14px;
+}
+
+.BFG-3000 img {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+.BFG-6000 {
+  padding: 21px 13px 20px 14px;
+}
+
+.BFG-6000 img {
+  margin-left: 12px;
+  margin-bottom: 21px;
+}
+
+.BFG-2000 {
+  padding: 27px 13px 20px 14px;
+}
+
+.BFG-2000 img {
+  margin-left: 17px;
+  margin-bottom: 31px;
+}
+
+.layout h3 {
+  margin: 0;
+  width: 190px;
+  text-align: center;
+  margin-bottom: 12px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.BFG-3000 .price {
+  margin-left: 27px;
+}
+
+.BFG-6000 .price {
+  margin-left: 28px;
+}
+
+.BFG-2000 .price {
+  margin-left: 28px;
+}
+
+.BFG-2000 h3 {
+  margin-bottom: 39px;
+  }
+
+.layout-list {
+  position: relative;
 }
