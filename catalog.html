@@ -80,23 +80,24 @@
               </fieldset>
               <fieldset class="checkbox-filter">
                 <legend>производители:</legend>
-                <input type="checkbox">
-                <label>bosch</label>
-                <input type="checkbox">
-                <label>интерскол</label>
-                <input type="checkbox">
-                <label>makita</label>
-                <input type="checkbox">
-                <label>dewalt</label>
-                <input type="checkbox">
-                <label>hitachi</label>
+                <input type="checkbox" name="bosch" id="bosch" checked>
+                <label for="bosch">bosch</label>
+                <input type="checkbox" name="interskol" id="interskol">
+                <label for="interskol">интерскол</label>
+                <input type="checkbox" name="makita" id="makita" checked>
+                <label for="makita">makita</label>
+                <input type="checkbox" name="dewalt" id="dewalt">
+                <label for="dewalt">dewalt</label>
+                <input type="checkbox" name="hitachi" id="hitachi">
+                <label for="hitachi">hitachi</label>
               </fieldset>
               <fieldset class="radio-filter">
                 <legend>питание:</legend>
-                <input type="radio">
-                <label>аккумуляторные</label>
-                <input type="radio">
-                <label>сетевые</label>
+                <input type="radio" name="supply" id="accumulator" value="accumulator" checked>
+                <label for="accumulator">аккумуляторные</label>
+                <input type="radio" class="radio" name="supply" id="mains-power" value="mains-power">
+                <label for="mains-power">сетевые</label>
+
                 <input type="submit" value="ПОКАЗАТЬ">
               </fieldset>
             </form>
@@ -175,10 +176,10 @@
           </ul>
             </section>
           </div>
-          <section>
+          <section class="puncher-info">
             <h2 class="about-puncher">пара слов о перфораторах</h2>
-            <p>Перфоратор - универсальный строительный интсрумент.Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.</p>
-            <p>Сущетвуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функцию дрели, шуруповерта, и отбойного молотка.В ассортиментом ряду есть выбор "трехрежимников":в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+            <p class="puncher-description">Перфоратор - универсальный строительный интсрумент.Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.</p>
+            <p class="puncher-type">Сущетвуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функцию дрели, шуруповерта, и отбойного молотка.В ассортиментом ряду есть выбор "трехрежимников":в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
          </section>
         </div>
       </main>

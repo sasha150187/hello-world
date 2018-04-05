@@ -1379,6 +1379,7 @@ input[type="radio"] {
 
 .goods-list {
   width: 700px;
+  margin-bottom: 60px;
 }
 
 .filter-price {
@@ -1559,7 +1560,7 @@ input[type="radio"] {
   padding-left: 34px;
   font-size: 15px;
   line-height: 20px;
-  color: #000000;
+  color: #4d4d4d;
   text-transform: uppercase;
 }
 
@@ -1743,4 +1744,224 @@ input[type="radio"] {
 
 .layout-list {
   position: relative;
+  margin-bottom: 32px;
+}
+
+.pagination {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  padding-right: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-item {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+  display: block;
+  width: 38px;
+  height: 38px;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  padding-top: 9px;
+  cursor: pointer;
+}
+
+.pagination-next {
+  width: 140px;
+}
+
+.pagination-item-current {
+  color: #ffffff;
+  background-color: #ee3643;
+  border: none;
+}
+
+.puncher-info {
+  background-color: #f2f6f8;
+  padding-top: 65px;
+  padding-bottom: 68px;
+}
+
+.puncher-info h2,
+.puncher-info p {
+  margin: 0;
+}
+
+.puncher-info h2 {
+  margin-bottom: 26px;
+}
+
+.about-puncher {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.puncher-description,
+.puncher-type {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.puncher-description {
+  margin-top: 1px;
+}
+
+.checkbox-filter label,
+.radio-filter label {
+  position: relative;
+}
+
+.radio-filter input[type="radio"] + label::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/radio-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.radio-filter input[type="radio"] + label:hover::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/radio-off.svg");
+  background-repeat: no-repeat;
+  opacity: 1;
+  cursor: pointer;
+}
+
+input[type="radio"]:disabled + label::before{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/radio-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+input[type="radio"]:disabled + label{
+  color: #ced0d0;
+}
+
+input[type="radio"] + label::after{
+  content: "";
+  position: absolute;
+  display: none;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/radio-on.svg");
+  opacity: 1;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label::after{
+  display: block;
+}
+
+input[type="radio"]:checked + label::before{
+  display: none;
+}
+
+.checkbox-filter input[type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.checkbox-filter input[type="checkbox"] + label:hover::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.checkbox-filter input[type="checkbox"]:disabled + label::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+.checkbox-filter input[type="checkbox"]:disabled + label{
+  color: #ced0d0;
+}
+
+.checkbox-filter input[type="checkbox"] + label::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  display: none;
+  width: 25px;
+  margin: 0 5px 0 0;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.checkbox-filter input[type="checkbox"]:checked + label::after {
+  display: block;
+}
+
+.checkbox-filter input[type="checkbox"]:checked + label::before {
+  display: none;
+}
+
+.checkbox-filter label:hover {
+  color: #000000;
 }
