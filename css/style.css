@@ -98,7 +98,7 @@ a {
   justify-content: space-between;
 }
 
-.top-menu-form {
+.top-menu-  {
   margin-left: 220px;
 }
 
@@ -228,10 +228,10 @@ a {
 
 .main-services {
   display: flex;
-  margin: 0;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
-  margin-bottom: 52px;
+  margin: 0;
 }
 
 .main-services a {
@@ -253,16 +253,6 @@ a {
   margin-right: 1px;
 }
 
-.main-services li:first-child,
-.main-services li:nth-child(2) {
-  margin-right: 20px;
-  margin-bottom: 12px;
-}
-
-.main-services-list {
-  height: 410px;
-}
-
 .material,
 .instruments,
 .machinery,
@@ -273,6 +263,7 @@ a {
 
 .main-services-item {
   position:relative;
+  margin-bottom: 12px;
 }
 
 .material {
@@ -1964,4 +1955,30 @@ input[type="radio"]:checked + label::before{
 
 .checkbox-filter label:hover {
   color: #000000;
+}
+
+.main-services-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+.non-slider {
+  width: 300px;
+}
+
+.slider-side {
+  width: 620px;
+}
+
+.non-slider ul {
+  margin: 0;
+  padding: 0;
+}
+
+.form,
+.checkbox-filter,
+.radio-filter {
+  display: flex;
+  flex-direction: column;
 }
