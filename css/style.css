@@ -2019,7 +2019,6 @@ input[type="radio"]:checked + label::before{
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   opacity: 0.1;
-  cursor: pointer;
 }
 
 .checkbox-filter input[type="checkbox"]:disabled + label{
